@@ -306,7 +306,7 @@
   padding: 4px 20px;
   justify-content: center;
   border-radius: 10px;
-  background-color: #3a71c1;
+  background-color: #ff7f50;
   width: 150px;
   margin-left: 45%;
 }
@@ -319,4 +319,227 @@
   font-weight: 400;
   line-height: 28px;
   margin-top: 16px;
+}
+.workDisplay {
+  height: 480px;
+  width: 1000px;
+  background-color: #8d88888a;
+  margin-left: 100px;
+  margin-top: 48px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #3a71c1;
+  padding: 48px;
+  display: flex;
+  flex-direction: row;
+}
+.workDisplay .display {
+  width: 300px;
+  height: 370px;
+}
+.displayText {
+  margin-left: 96px;
+}
+.displayText h3 {
+  overflow: hidden;
+  color: var(--gray-dark-900, #f9fafb);
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+.displayText .description {
+  color: var(--gray-dark-600, #d1d5db);
+  margin-top: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 480px;
+}
+.displayText .tag {
+  background-color: #1c1c1c;
+  padding: 5px;
+  width: 25%;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+#tagIcon {
+  font-size: 30px;
+  margin-top: 24px;
+}
+.workDisplay .display1 {
+  width: 300px;
+  height: 400px;
+  margin-left: 96px;
+}
+.displayText1 h3 {
+  overflow: hidden;
+  color: var(--gray-dark-900, #f9fafb);
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+.displayText1 .description {
+  color: var(--gray-dark-600, #d1d5db);
+  margin-top: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 480px;
+}
+.displayText1 .tag {
+  background-color: #1c1c1c;
+  padding: 5px;
+  width: 25%;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.testimonials {
+  background-color: #8d88888a;
+  padding: 80px;
+}
+.testimonials .header {
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #3a71c1;
+  width: 150px;
+  margin-left: 45%;
+}
+.testimonials .text {
+  color: var(--gray-dark-600, #d1d5db);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+}
+.testContainer {
+  background-color: #1c1c1c;
+  padding: 48px;
+  border-radius: 20px;
+  width: 373px;
+  height: 428px;
+  margin-left: 32px;
+  margin-top: 48px;
+  box-shadow: 0 0 20px #ff7f50;
+}
+.testImage {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-left: 30%;
+}
+.testContainer .text1 {
+  color: var(--gray-dark-600, #d1d5db);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.testContainer .text2 {
+  color: var(--gray-dark-900, #f9fafb);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.testContainer .text3 {
+  color: var(--gray-dark-600, #d1d5db);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.contact {
+  padding: 80px;
+}
+.contact .header {
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ff7f50;
+  width: 150px;
+  margin-left: 45%;
+}
+.contact .text {
+  color: var(--gray-dark-600, #d1d5db);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+}
+.contact h4 {
+  color: var(--gray-dark-900, #f9fafb);
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin-left: 20px;
+  letter-spacing: -0.72px;
+}
+.contact i {
+  font-size: 35px;
+}
+.contactText1 {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 27.5%;
+}
+.contactText2 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+.contactText3 {
+  color: var(--gray-dark-600, #d1d5db);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+#icon1 {
+  font-size: 30px;
+}
+.contactIcons {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 42.5%;
+}
+.contactIcons i {
+  margin-left: 20px;
 }

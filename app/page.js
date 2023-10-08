@@ -11,6 +11,9 @@ import node from "../assets/icon-nodejs.jpg";
 import react from "../assets/icon-react.jpg";
 import sass from "../assets/icon-sass.jpg";
 import fortech from "../assets/fortechub.jpg";
+import rivet from "../assets/Rivet.jpg";
+import routine from "../assets/routine.jpg";
+import sg from "../assets/sg.png";
 
 function page() {
   return (
@@ -159,10 +162,124 @@ function page() {
       </div>
 
       <div className={Styles.work}>
-        <h3 className={Styles.header}> Experience </h3>
+        <h3 className={Styles.header}> Work </h3>
         <p className={Styles.text}>
-          Here is a quick summary of my most recent experiences:
+          Some of the noteworthy projects I have built:
         </p>
+        <div className={Styles.workDisplay}>
+          <Image src={rivet} className={Styles.display} />
+          <div className={Styles.displayText}>
+            <h3>Rivet</h3>
+            <p className={Styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <p className={Styles.tag}>React Native</p>
+            <p className={Styles.tag}>Node js</p>
+            <p className={Styles.tag}>Mongo db</p>
+            <a href="/">
+              <i class="bx bx-link-external" id={Styles.tagIcon}></i>
+            </a>
+          </div>
+        </div>
+
+        <div className={Styles.workDisplay}>
+          <div className={Styles.displayText1}>
+            <h3>Rivet</h3>
+            <p className={Styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <p className={Styles.tag}>React Native</p>
+            <p className={Styles.tag}>Node js</p>
+            <p className={Styles.tag}>Mongo db</p>
+            <a href="/">
+              <i class="bx bx-link-external" id={Styles.tagIcon}></i>
+            </a>
+          </div>
+          <Image src={routine} className={Styles.display1} />
+        </div>
+
+        <div className={Styles.workDisplay}>
+          <Image src={sg} className={Styles.display} />
+          <div className={Styles.displayText}>
+            <h3>Rivet</h3>
+            <p className={Styles.description}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <p className={Styles.tag}>React Native</p>
+            <p className={Styles.tag}>Node js</p>
+            <p className={Styles.tag}>Mongo db</p>
+            <a href="/">
+              <i class="bx bx-link-external" id={Styles.tagIcon}></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={Styles.testimonials}>
+        <h3 className={Styles.header}> Testimonials </h3>
+        <p className={Styles.text}>Nice things people have said about me:</p>
+        <div className={Styles.test}>
+          <div className={Styles.testContainer}>
+            <Image src={fortech} className={Styles.testImage} />
+            <p className={Styles.text1}>
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </p>
+            <h3 className={Styles.text2}>John Doe</h3>
+            <p className={Styles.text3}>Founder - xyz.com</p>
+          </div>
+          <div className={Styles.testContainer}>
+            <Image src={fortech} className={Styles.testImage} />
+            <p className={Styles.text1}>
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </p>
+            <h3 className={Styles.text2}>John Doe</h3>
+            <p className={Styles.text3}>Founder - xyz.com</p>
+          </div>
+          <div className={Styles.testContainer}>
+            <Image src={fortech} className={Styles.testImage} />
+            <p className={Styles.text1}>
+              “Job well done! I am really impressed. He is very very good at
+              what he does:) I would recommend Sagar and will rehire in the
+              future for Frontend development.”
+            </p>
+            <h3 className={Styles.text2}>John Doe</h3>
+            <p className={Styles.text3}>Founder - xyz.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={Styles.contact}>
+        <h3 className={Styles.header}> Testimonials </h3>
+        <p className={Styles.text}>
+          What’s next? Feel free to reach out to me if you're looking for <br />
+          a developer, have a query, or simply want to connect.
+        </p>
+        <div className={Styles.contactText1}>
+          <i class="bx bx-envelope"></i>
+          <h4> alexandervirtuous14@gmail.com</h4>
+        </div>
+        <div className={Styles.contactText2}>
+          <i class="bx bxs-phone"></i>
+          <h4> +234 701 257 1616</h4>
+        </div>
+        <p className={Styles.contactText3}>
+          You may also find me on these platforms!
+        </p>
+        <div className={Styles.contactIcons}>
+          <i class="bx bxl-github" id={Styles.icon1}></i>
+          <i class="bx bxl-linkedin-square" id={Styles.icon1}></i>
+          <i class="bx bxl-twitter" id={Styles.icon1}></i>
+        </div>
       </div>
     </div>
   );
