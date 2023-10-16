@@ -14,6 +14,7 @@ import fortech from "../assets/fortechub.jpg";
 import rivet from "../assets/Rivet.jpg";
 import routine from "../assets/routine.jpg";
 import sg from "../assets/sg.png";
+import user from "../assets/user.png";
 
 function page() {
   return (
@@ -23,7 +24,7 @@ function page() {
           &lt; A.V.I / &gt;
         </a>
         <div className={Styles.links}>
-          <a href="/"> ABOUT </a>
+          <a href="/about"> ABOUT </a>
           <a href="/"> WORK </a>
           <a href="/"> TESTIMONIAL </a>
           <a href="/"> CONTACT </a>
@@ -37,11 +38,9 @@ function page() {
           <h1>Hi, I’m Alexandra 👋</h1>
           <h3>
             I'm a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing) <br />
+            creating <br />
             exceptional digital experiences that are fast, accessible, visually
-            appealing, and responsive. <br /> Even though I have been creating
-            web applications for over 7 years, I still love it as if it was
-            something new.
+            appealing, and responsive.
           </h3>
           <div className={Styles.location}>
             <i class="bx bx-current-location" id={Styles.icon}></i>
@@ -63,7 +62,7 @@ function page() {
         </div>
       </div>
 
-      <div className={Styles.about}>
+      <div className={Styles.about} id="/about">
         <h3 className={Styles.header}> About Me </h3>
         <div className={Styles.section}>
           <div className={Styles.part1}>
@@ -76,35 +75,32 @@ function page() {
             </h3>
             <div className={Styles.aboutText}>
               <p>
-                I'm a passionate, self-proclaimed designer who specializes in
-                full stack development (React.js & Node.js). I am very
-                enthusiastic about bringing the technical and visual aspects of
-                digital products to life. User experience, pixel perfect design,
-                and writing clear, readable, highly performant code matters to
-                me.
+                I create compelling and innovative solutions that exceed client
+                expectations. With a focus on collaboration, I work closely with
+                clients to understand their vision and deliver results that
+                capture the essence of their brand. I thrive on challenges and
+                push the boundaries to create unique designs that make a lasting
+                impact.
               </p>
               <br />
               <p>
-                I began my journey as a web developer in 2015, and since then,
-                I've continued to grow and evolve as a developer, taking on new
-                challenges and learning the latest technologies along the way.
-                Now, in my early thirties, 7 years after starting my web
-                development journey, I'm building cutting-edge web applications
-                using modern technologies such as Next.js, TypeScript, Nestjs,
-                Tailwindcss, Supabase and much more.
+                At the core of my work is a commitment to continuous learning
+                and staying ahead of trends. I believe that keeping up with the
+                latest advancements in Development is crucial for delivering
+                cutting-edge solutions. By combining creativity, functionality,
+                and attention to detail, I strive to create designs that not
+                only meet clients' needs but also inspire and leave a lasting
+                impression.
               </p>
               <br />
               <p>
-                I am very much a progressive thinker and enjoy working on
-                products end to end, from ideation all the way to development.
-              </p>
-              <br />
-              <p>
-                When I'm not in full-on developer mode, you can find me hovering
-                around on twitter or on indie hacker, witnessing the journey of
-                early startups or enjoying some free time. You can follow me on
-                Twitter where I share tech-related bites and build in public, or
-                you can follow me on GitHub.
+                Beyond my professional life, I find inspiration through
+                observations. These activities fuel my creativity and help me
+                maintain a balanced perspective in my work. Thank you for
+                visiting my portfolio website, and I invite you to explore my
+                projects to get a glimpse into my creative journey. If you're
+                interested in collaborating or have any questions, I would love
+                to hear from you. Let's connect and bring your ideas to life!
               </p>
               <br />
               <p>Finally, some quick bits about me.</p>
@@ -153,8 +149,16 @@ function page() {
           <div className={Styles.fortechText}>
             <h3>Full Stack Developer</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit.
+              During my time as a full stack developer, I gained valuable
+              experience in both front-end and back-end development. I worked on
+              a variety of projects, collaborating with cross-functional teams
+              to design, develop, and maintain web applications. This role
+              allowed me to enhance my skills in programming languages such as
+              JavaScript, HTML, CSS, and various back-end technologies. I also
+              became proficient in using databases, version control systems, and
+              deploying applications. Throughout my journey, I learned to
+              troubleshoot issues, optimize code, and adapt to new technologies,
+              making me a more versatile and effective developer.
             </p>
           </div>
           <p className={Styles.date}>Nov 2022 - Present</p>
@@ -170,11 +174,7 @@ function page() {
           <Image src={rivet} className={Styles.display} />
           <div className={Styles.displayText}>
             <h3>Rivet</h3>
-            <p className={Styles.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
-            </p>
+            <p className={Styles.description}> Social Media App</p>
             <p className={Styles.tag}>React Native</p>
             <p className={Styles.tag}>Node js</p>
             <p className={Styles.tag}>Mongo db</p>
@@ -186,12 +186,8 @@ function page() {
 
         <div className={Styles.workDisplay}>
           <div className={Styles.displayText1}>
-            <h3>Rivet</h3>
-            <p className={Styles.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
-            </p>
+            <h3>Routine Master</h3>
+            <p className={Styles.description}>Task and Reminder App</p>
             <p className={Styles.tag}>React Native</p>
             <p className={Styles.tag}>Node js</p>
             <p className={Styles.tag}>Mongo db</p>
@@ -205,15 +201,12 @@ function page() {
         <div className={Styles.workDisplay}>
           <Image src={sg} className={Styles.display} />
           <div className={Styles.displayText}>
-            <h3>Rivet</h3>
+            <h3>Sg Nolly Films</h3>
             <p className={Styles.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
+              landing page for a movie website
             </p>
-            <p className={Styles.tag}>React Native</p>
-            <p className={Styles.tag}>Node js</p>
-            <p className={Styles.tag}>Mongo db</p>
+            <p className={Styles.tag}>React js</p>
+            <p className={Styles.tag}>css </p>
             <a href="/">
               <i class="bx bx-link-external" id={Styles.tagIcon}></i>
             </a>
@@ -229,37 +222,38 @@ function page() {
             <Image src={fortech} className={Styles.testImage} />
             <p className={Styles.text1}>
               “Job well done! I am really impressed. He is very very good at
-              what he does:) I would recommend Sagar and will rehire in the
+              what he does:) I would recommend Alexandra and will rehire in the
               future for Frontend development.”
             </p>
-            <h3 className={Styles.text2}>John Doe</h3>
-            <p className={Styles.text3}>Founder - xyz.com</p>
+            <h3 className={Styles.text2}>King Rawlings</h3>
+            <p className={Styles.text3}>Founder - Fortechub</p>
           </div>
           <div className={Styles.testContainer}>
-            <Image src={fortech} className={Styles.testImage} />
+            <Image src={user} className={Styles.testImage} />
             <p className={Styles.text1}>
-              “Job well done! I am really impressed. He is very very good at
-              what he does:) I would recommend Sagar and will rehire in the
-              future for Frontend development.”
+              “ Their ability to seamlessly transition between front-end and
+              back-end tasks was instrumental in the success of our projects. I
+              would wholeheartedly recommend Alexandra to any team looking for a
+              talented full stack developer."
             </p>
-            <h3 className={Styles.text2}>John Doe</h3>
-            <p className={Styles.text3}>Founder - xyz.com</p>
+            <h3 className={Styles.text2}>Olivia Anderson</h3>
+            <p className={Styles.text3}>Client</p>
           </div>
           <div className={Styles.testContainer}>
-            <Image src={fortech} className={Styles.testImage} />
+            <Image src={user} className={Styles.testImage} />
             <p className={Styles.text1}>
-              “Job well done! I am really impressed. He is very very good at
-              what he does:) I would recommend Sagar and will rehire in the
-              future for Frontend development.”
+              "I had the privilege of collaborating with Alexandra on several
+              web development initiatives, and I must say that their
+              contributions were invaluable.”
             </p>
-            <h3 className={Styles.text2}>John Doe</h3>
-            <p className={Styles.text3}>Founder - xyz.com</p>
+            <h3 className={Styles.text2}>Ifanyichukwu Ehigator</h3>
+            <p className={Styles.text3}>Client</p>
           </div>
         </div>
       </div>
 
       <div className={Styles.contact}>
-        <h3 className={Styles.header}> Testimonials </h3>
+        <h3 className={Styles.header}> Contact </h3>
         <p className={Styles.text}>
           What’s next? Feel free to reach out to me if you're looking for <br />
           a developer, have a query, or simply want to connect.
